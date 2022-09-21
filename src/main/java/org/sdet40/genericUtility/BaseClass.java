@@ -21,7 +21,7 @@ import UserModuleZolandoPOM.UserCommonPage;
 import UserModuleZolandoPOM.UserSignup;
 
 public class BaseClass {
-	//Changes done by master in base class
+	//base class updated
 	private WebDriverUtility webDriverUtility;
 	private FileUtility propertyfileutility;
 	protected LoginPage loginPage;
