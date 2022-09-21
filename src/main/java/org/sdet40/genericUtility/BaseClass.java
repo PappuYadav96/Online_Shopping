@@ -19,9 +19,12 @@ import org.testng.asserts.SoftAssert;
 import UserModuleZolandoPOM.UserAccountCreate;
 import UserModuleZolandoPOM.UserCommonPage;
 import UserModuleZolandoPOM.UserSignup;
-
+/**
+ * Base class updated
+ * @author PAPPU YADAV
+ *
+ */
 public class BaseClass {
-	//changes done by master
 	private WebDriverUtility webDriverUtility;
 	private FileUtility propertyfileutility;
 	protected LoginPage loginPage;
