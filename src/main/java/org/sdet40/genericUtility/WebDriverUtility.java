@@ -1,10 +1,8 @@
 package org.sdet40.genericUtility;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
-
 import org.Zolanda_ObjectRepository.TabNames;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;

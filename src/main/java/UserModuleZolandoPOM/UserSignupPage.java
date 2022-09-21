@@ -49,4 +49,34 @@ public class UserSignupPage
 	public UserSignupPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-}
+	//public void UserSignupPage()
+	{
+		//ClickloginButton()
+		//	 UserNameTextField.sendKeys(un);
+		// PasswordTextField.sendKeys(pd);
+	}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
