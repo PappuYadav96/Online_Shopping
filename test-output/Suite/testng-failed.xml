@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AdminandUserScript.AppleIphone6AdminTest">
+        <methods>
+          <include name="method2"/>
+          <include name="method1"/>
+          <include name="method4"/>
+          <include name="method3"/>
+          <include name="method6"/>
+          <include name="method5"/>
+          <include name="method8"/>
+          <include name="method7"/>
+          <include name="appleIphone6AdminTest"/>
+        </methods>
+      </class> <!-- AdminandUserScript.AppleIphone6AdminTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
