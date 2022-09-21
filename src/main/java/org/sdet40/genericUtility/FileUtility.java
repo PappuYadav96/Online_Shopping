@@ -9,7 +9,12 @@ import java.util.Properties;
  */
 public class FileUtility
 {
-
+/** 
+ * fileutility class
+ * @param key
+ * @return
+ * @throws IOException
+ */
 	public String getDataFromPropertyFile(String key) throws IOException
 	{
 		FileInputStream fis = new FileInputStream(IConstantPath.PROPERTY_FILE_PATH);
