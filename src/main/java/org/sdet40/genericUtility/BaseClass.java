@@ -24,6 +24,8 @@ import UserModuleZolandoPOM.UserSignup;
  * @author PAPPU YADAV
  *
  */
+//Base Class updated Sucessfully
+
 public class BaseClass {
 	private WebDriverUtility webDriverUtility;
 	private FileUtility propertyfileutility;
