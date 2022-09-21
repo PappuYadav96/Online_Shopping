@@ -20,7 +20,11 @@ import UserModuleZolandoPOM.UserAccountCreate;
 import UserModuleZolandoPOM.UserCommonPage;
 import UserModuleZolandoPOM.UserSignup;
 /**
+<<<<<<< HEAD
  * This is a baseclass
+=======
+ * Base class updated
+>>>>>>> branch 'master' of https://github.com/PappuYadav96/Online_Shopping.git
  * @author PAPPU YADAV
  *
  */
