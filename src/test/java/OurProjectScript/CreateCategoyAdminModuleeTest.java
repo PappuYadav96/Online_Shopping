@@ -1,4 +1,5 @@
-package AdminandUserScript;
+package OurProjectScript;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -6,6 +7,7 @@ import org.Zolanda_ObjectRepository.AdminInsertProduct;
 import org.Zolanda_ObjectRepository.CreateCategory;
 import org.Zolanda_ObjectRepository.LoginPage;
 import org.Zolanda_ObjectRepository.SubCategoryPage;
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,9 +20,10 @@ import org.testng.annotations.Test;
 public class CreateCategoyAdminModuleeTest extends BaseClass
 {
 	@Test
-	public void  createCategoyadmin() throws InterruptedException{
+	public void  createCategoyadmin() throws InterruptedException, EncryptedDocumentException, IOException{
 		ExcelUtility excelUtility;
 		excelUtility= new ExcelUtility();
+		excelUtility.openExcel(IConstantPath.EXCEL_PATH);
 		String ur= excelUtility.getDataFromExcel("CreateCategoryAdmin","url");
 		String ie2=excelUtility.getDataFromExcel("CreateCategoryAdmin", "admin");
 		String ip2=excelUtility.getDataFromExcel("CreateCategoryAdmin", "Test@123");
@@ -35,13 +38,18 @@ public class CreateCategoyAdminModuleeTest extends BaseClass
 		String ps=excelUtility.getDataFromExcel("CreateCategoryAdmin", "free");
 		String pa=excelUtility.getDataFromExcel("CreateCategoryAdmin", "In Stock");
 
-		//		String key="webdriver.chrome.driver";
-		//		String value="./driver/chromedriver.exe";
-		//		System.setProperty(key,value); 
-		//		WebDriver driver=new ChromeDriver();
-		//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+
+		//		WebDriverManager.chromedriver().setup();
+		//		WebDriver driver = new ChromeDriver();
+		//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//		driver.get("http://rmgtestingserver/domain/Online_Shopping_Application/admin");
 		//		driver.manage().window().maximize();
+
+
+
+
+
 
 		LoginPage lp = new LoginPage(driver);
 		lp.loginAction("userName","password");

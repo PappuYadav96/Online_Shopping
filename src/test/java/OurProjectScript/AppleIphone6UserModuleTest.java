@@ -1,8 +1,11 @@
-package AdminandUserScript;
+package OurProjectScript;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import org.Zolanda_ObjectRepository.AppleIphone6User;
 import org.Zolanda_ObjectRepository.LoginPage;
+import org.Zolanda_ObjectRepository.UserSignup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,8 +13,7 @@ import org.sdet40.genericUtility.BaseClass;
 import org.sdet40.genericUtility.ExcelUtility;
 import org.testng.annotations.Test;
 
-import UserModuleZolandoPOM.AppleIphone6User;
-import UserModuleZolandoPOM.UserSignup;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public  class AppleIphone6UserModuleTest extends BaseClass
 {
@@ -22,8 +24,8 @@ public  class AppleIphone6UserModuleTest extends BaseClass
 	{
 
 		excelUtility= new ExcelUtility();
-		String ur1= excelUtility.getDataFromExcel("AppleIphoneUser","url");
-		String un=excelUtility.getDataFromExcel("AppleIphoneUser", "ram11@123gmail.com");
+		String ur1= excelUtility.getDataFromExcelInKey("AppleIphoneUser","url");
+		String un=excelUtility.getDataFromExcelInKey("AppleIphoneUser", "ram11@123gmail.com");
 		String pd=excelUtility.getDataFromExcel("AppleIphoneUser", "ram123");
 		String ip=excelUtility.getDataFromExcel("AppleIphoneUser", "Iphone6");
 		String pt=excelUtility.getDataFromExcel("AppleIphoneUser", "Patna");
@@ -35,13 +37,19 @@ public  class AppleIphone6UserModuleTest extends BaseClass
 		String dc=excelUtility.getDataFromExcel("AppleIphoneUser", "Bangalore");
 		String sc=excelUtility.getDataFromExcel("AppleIphoneUser", "560016");		
 
-//		String key="webdriver.chrome.driver";
-//		String value="./driver/chromedriver.exe";
-//		System.setProperty(key,value); 
-//		WebDriver driver=new ChromeDriver();
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//	
+		
+		
+		
+		
+//		WebDriverManager.chromedriver().setup();
+//		WebDriver driver = new ChromeDriver();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //		driver.get("http://rmgtestingserver/domain/Online_Shopping_Application");
 //		driver.manage().window().maximize();
+	
+//		
+
 
 		//login
 		//driver.findElement(By.xpath("//h4[text()='sign in']")).click();

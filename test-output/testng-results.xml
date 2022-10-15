@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T16:54:01 IST" name="Default suite" finished-at="2022-09-20T16:54:06 IST" duration-ms="5715">
+  <suite started-at="2022-09-21T23:26:59 IST" name="Default suite" finished-at="2022-09-21T23:27:07 IST" duration-ms="7664">
     <groups>
     </groups>
-    <test started-at="2022-09-20T16:54:01 IST" name="Default test" finished-at="2022-09-20T16:54:06 IST" duration-ms="5715">
-      <class name="AdminandUserScript.AppleIphone6AdminTest">
-        <test-method is-config="true" signature="method1()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:01 IST" name="method1" finished-at="2022-09-20T16:54:01 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-09-21T23:26:59 IST" name="Default test" finished-at="2022-09-21T23:27:07 IST" duration-ms="7664">
+      <class name="AdminandUserScript.AppleIphone6UserModuleTest">
+        <test-method is-config="true" signature="method1()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:26:59 IST" name="method1" finished-at="2022-09-21T23:26:59 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method is-config="true" signature="method2()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:01 IST" name="method2" finished-at="2022-09-20T16:54:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="method2()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:26:59 IST" name="method2" finished-at="2022-09-21T23:26:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method is-config="true" signature="method3()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:01 IST" name="method3" finished-at="2022-09-20T16:54:01 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="method3()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:26:59 IST" name="method3" finished-at="2022-09-21T23:26:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
-        <test-method is-config="true" signature="method4()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:01 IST" name="method4" finished-at="2022-09-20T16:54:06 IST" duration-ms="5613" status="FAIL">
+        <test-method is-config="true" signature="method4()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:26:59 IST" name="method4" finished-at="2022-09-21T23:27:06 IST" duration-ms="7570" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
@@ -27,9 +27,9 @@
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-FMKQHNF', ip: '192.168.246.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7efe686faaed21aa8534b0fe0905f3d, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a7efe686faaed21aa8534b0fe0905f3d]]>
+Command: [9dacb4cda31f913ac7aa10406d1ace21, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55961/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dacb4cda31f913ac7aa10406d1ace21]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
@@ -37,9 +37,9 @@ Session ID: a7efe686faaed21aa8534b0fe0905f3d]]>
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-FMKQHNF', ip: '192.168.246.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7efe686faaed21aa8534b0fe0905f3d, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a7efe686faaed21aa8534b0fe0905f3d
+Command: [9dacb4cda31f913ac7aa10406d1ace21, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55961/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dacb4cda31f913ac7aa10406d1ace21
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,7 +54,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 at org.sdet40.genericUtility.WebDriverUtility.navigateApplication(WebDriverUtility.java:82)
-at org.sdet40.genericUtility.BaseClass.method4(BaseClass.java:82)
+at org.sdet40.genericUtility.BaseClass.method4(BaseClass.java:88)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method4 -->
-        <test-method signature="appleIphone6AdminTest()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:06 IST" name="appleIphone6AdminTest" finished-at="2022-09-20T16:54:06 IST" duration-ms="0" status="SKIP">
+        <test-method signature="appleIphone6UserModule()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:27:07 IST" name="appleIphone6UserModule" finished-at="2022-09-21T23:27:07 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
@@ -101,9 +101,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-FMKQHNF', ip: '192.168.246.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7efe686faaed21aa8534b0fe0905f3d, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a7efe686faaed21aa8534b0fe0905f3d]]>
+Command: [9dacb4cda31f913ac7aa10406d1ace21, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55961/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dacb4cda31f913ac7aa10406d1ace21]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
@@ -111,9 +111,9 @@ Session ID: a7efe686faaed21aa8534b0fe0905f3d]]>
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-FMKQHNF', ip: '192.168.246.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7efe686faaed21aa8534b0fe0905f3d, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a7efe686faaed21aa8534b0fe0905f3d
+Command: [9dacb4cda31f913ac7aa10406d1ace21, get {url=http://rmgtestingserver/domain/Online_Shopping_Application/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\PAPPUY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55961/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dacb4cda31f913ac7aa10406d1ace21
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,7 +128,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 at org.sdet40.genericUtility.WebDriverUtility.navigateApplication(WebDriverUtility.java:82)
-at org.sdet40.genericUtility.BaseClass.method4(BaseClass.java:82)
+at org.sdet40.genericUtility.BaseClass.method4(BaseClass.java:88)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -166,24 +166,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- appleIphone6AdminTest -->
-        <test-method is-config="true" signature="method5()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:06 IST" name="method5" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663673046715" status="SKIP">
+        </test-method> <!-- appleIphone6UserModule -->
+        <test-method is-config="true" signature="method5()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:27:07 IST" name="method5" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663783027015" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method5 -->
-        <test-method is-config="true" signature="method6()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:06 IST" name="method6" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663673046720" status="SKIP">
+        <test-method is-config="true" signature="method6()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:27:07 IST" name="method6" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663783027019" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method6 -->
-        <test-method is-config="true" signature="method7()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:06 IST" name="method7" finished-at="2022-09-20T16:54:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="method7()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:27:07 IST" name="method7" finished-at="2022-09-21T23:27:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method7 -->
-        <test-method is-config="true" signature="method8()[pri:0, instance:AdminandUserScript.AppleIphone6AdminTest@3527942a]" started-at="2022-09-20T16:54:06 IST" name="method8" finished-at="2022-09-20T16:54:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="method8()[pri:0, instance:AdminandUserScript.AppleIphone6UserModuleTest@3527942a]" started-at="2022-09-21T23:27:07 IST" name="method8" finished-at="2022-09-21T23:27:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method8 -->
-      </class> <!-- AdminandUserScript.AppleIphone6AdminTest -->
+      </class> <!-- AdminandUserScript.AppleIphone6UserModuleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

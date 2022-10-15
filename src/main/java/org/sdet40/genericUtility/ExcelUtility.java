@@ -90,10 +90,10 @@ public class ExcelUtility
 	 * @param requiredKey
 	 * @return
 	 */
-	public String getDataFromExcel(String sheetName, String requiredKey) {
+	public String getDataFromExcelInKey(String sheetName, String requiredKey) {
 		Sheet sheet = wb.getSheet(sheetName);
 
-		String value = null;
+		String value=null ;
 		for(int i=0; i<=sheet.getLastRowNum(); i++) {
 			String actualKey = sheet.getRow(i).getCell(0).getStringCellValue();
 			if(actualKey.equalsIgnoreCase(requiredKey)) {

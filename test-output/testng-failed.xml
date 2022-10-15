@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AdminandUserScript.AppleIphone6AdminTest">
+      <class name="AdminandUserScript.AppleIphone6UserModuleTest">
         <methods>
           <include name="method2"/>
           <include name="method1"/>
@@ -13,9 +13,9 @@
           <include name="method5"/>
           <include name="method8"/>
           <include name="method7"/>
-          <include name="appleIphone6AdminTest"/>
+          <include name="appleIphone6UserModule"/>
         </methods>
-      </class> <!-- AdminandUserScript.AppleIphone6AdminTest -->
+      </class> <!-- AdminandUserScript.AppleIphone6UserModuleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

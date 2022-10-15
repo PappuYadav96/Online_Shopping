@@ -1,4 +1,4 @@
-package UserModuleZolandoPOM;
+package org.Zolanda_ObjectRepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

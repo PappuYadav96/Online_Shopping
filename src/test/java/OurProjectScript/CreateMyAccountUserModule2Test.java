@@ -1,15 +1,14 @@
-package AdminandUserScript;
+package OurProjectScript;
 import java.util.concurrent.TimeUnit;
 
+import org.Zolanda_ObjectRepository.UserAccountCreate;
+import org.Zolanda_ObjectRepository.UserSignup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.sdet40.genericUtility.BaseClass;
 import org.sdet40.genericUtility.ExcelUtility;
 import org.sdet40.genericUtility.IConstantPath;
-
-import UserModuleZolandoPOM.UserAccountCreate;
-import UserModuleZolandoPOM.UserSignup;
 
 public class CreateMyAccountUserModule2Test extends BaseClass {
 
@@ -26,13 +25,20 @@ public class CreateMyAccountUserModule2Test extends BaseClass {
 		String ip=excelUtility.getDataFromExcel(IConstantPath.EXCEL_PATH, 6, 1);
 
 
-//		String key="webdriver.chrome.driver";
-//		String value="./driver/chromedriver.exe";
-//		System.setProperty(key,value); 
-//		WebDriver driver=new ChromeDriver();
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		driver.get("http://rmgtestingserver/domain/Online_Shopping_Application");
-//		driver.manage().window().maximize();
+
+
+
+
+		//		WebDriverManager.chromedriver().setup();
+		//		WebDriver driver = new ChromeDriver();
+		//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//		driver.get("http://rmgtestingserver/domain/Online_Shopping_Application");
+		//		driver.manage().window().maximize();
+
+
+
+
+
 
 		UserAccountCreate ua = new UserAccountCreate(driver);
 		ua.UserSignup(fn, ei, cn, pd, cp);
